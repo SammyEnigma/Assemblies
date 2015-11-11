@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpSendMessage", "UdpSendMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalXML", "ExternalXML\ExternalXML.csproj", "{02909AD5-7140-4578-BD7A-035D6CBFF6FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegExExtention", "RegExExtention\RegExExtention.csproj", "{2E4A65D5-AB11-414A-862C-72E1D6F3DC9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,14 @@ Global
 		{02909AD5-7140-4578-BD7A-035D6CBFF6FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{02909AD5-7140-4578-BD7A-035D6CBFF6FD}.Release|x64.ActiveCfg = Release|Any CPU
 		{02909AD5-7140-4578-BD7A-035D6CBFF6FD}.Release|x64.Build.0 = Release|Any CPU
+		{2E4A65D5-AB11-414A-862C-72E1D6F3DC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4A65D5-AB11-414A-862C-72E1D6F3DC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4A65D5-AB11-414A-862C-72E1D6F3DC9D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2E4A65D5-AB11-414A-862C-72E1D6F3DC9D}.Debug|x64.Build.0 = Debug|Any CPU
+		{2E4A65D5-AB11-414A-862C-72E1D6F3DC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4A65D5-AB11-414A-862C-72E1D6F3DC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4A65D5-AB11-414A-862C-72E1D6F3DC9D}.Release|x64.ActiveCfg = Release|Any CPU
+		{2E4A65D5-AB11-414A-862C-72E1D6F3DC9D}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

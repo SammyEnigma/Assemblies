@@ -195,16 +195,12 @@ namespace Nini.Config
 		/// </summary>
 		private void Load ()
 		{
-#if (NET_COMPACT_1_0)
-			throw new NotSupportedException ("This loading method is not supported");
-#else
 			this.Merge (this); // required for SaveAll
 			for (int i = 0; i < sections.Length; i++)
 			{
 				LoadCollection (sections[i], (NameValueCollection)ConfigurationSettings
 								.GetConfig (sections[i]));
 			}
-#endif
 		}
 		
 		/// <summary>
